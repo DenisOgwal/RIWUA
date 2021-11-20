@@ -40,6 +40,7 @@ public class Advise extends AppCompatActivity implements AdviseRecyclerViewAdpte
     private DividerItemDecoration dividerItemDecoration;
     private List<SentAdvise> messageList;
     private AdviseRecyclerViewAdpter adapter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -71,6 +72,7 @@ public class Advise extends AppCompatActivity implements AdviseRecyclerViewAdpte
         getData();
     }
 
+    //is helps in getting all the advise for display
     private void getData() {
         try {
             final ProgressDialog progressDialog = new ProgressDialog(this);
@@ -110,6 +112,7 @@ public class Advise extends AppCompatActivity implements AdviseRecyclerViewAdpte
             Toast.makeText(Advise.this, EX.getMessage().toString(), Toast.LENGTH_LONG).show();
         }
     }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.searchfilter, menu);
@@ -140,6 +143,7 @@ public class Advise extends AppCompatActivity implements AdviseRecyclerViewAdpte
         });
         return true;
     }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
@@ -154,6 +158,7 @@ public class Advise extends AppCompatActivity implements AdviseRecyclerViewAdpte
 
         return super.onOptionsItemSelected(item);
     }
+
     @Override
     public void onBackPressed() {
         // close search view on back button pressed
@@ -163,6 +168,7 @@ public class Advise extends AppCompatActivity implements AdviseRecyclerViewAdpte
         }
         super.onBackPressed();
     }
+
     private void whiteNotificationBar(View view) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             int flags = view.getSystemUiVisibility();
@@ -171,6 +177,7 @@ public class Advise extends AppCompatActivity implements AdviseRecyclerViewAdpte
             getWindow().setStatusBarColor(Color.GREEN);
         }
     }
+
     @Override
     public void onContactSelected(SentAdvise SentAdvise) {
 
