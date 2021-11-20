@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/noti"
+    android:padding="10dp">
+
+
+<RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+       >
+
+        <TextView
+            android:id="@+id/advisesubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/sentbytext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/advisesubject"
+            android:text="By: " />
+
+        <TextView
+            android:id="@+id/sentby"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/advisesubject"
+            android:layout_toRightOf="@id/sentbytext"
+            android:text="Rating"
+            android:textStyle="normal" />
+
+
+        <TextView
+            android:id="@+id/datesent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sentby"
+            android:text="Date: " />
+
+        <TextView
+            android:id="@+id/datesenttext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sentby"
+            android:layout_toRightOf="@id/datesent"
+            android:text="Year" />
+        <TextView
+            android:id="@+id/adviseids"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/datesenttext"
+            android:text="Year"
+            android:visibility="invisible"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/billno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Bill No."
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/meterreading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_below="@+id/billno"
+            android:text="Meter Reading:  "/>
+        <TextView
+            android:id="@+id/waterunits"
+            android:layout_below="@+id/meterreading"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Water Units"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/amountpayable"
+            android:layout_width="wrap_content"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/waterunits"
+            android:text="Amount Payable:  "/>
+        <TextView
+            android:id="@+id/amountpaid"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/amountpayable"
+            android:textStyle="normal"
+            android:text="Amount Paid: "/>
+
+        <TextView
+            android:id="@+id/balance"
+            android:layout_width="wrap_content"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_below="@+id/amountpaid"
+            android:text="Balance "
+            />
+        <TextView
+            android:id="@+id/billingdate"
+            android:layout_width="wrap_content"
+            android:padding="5dp"
+            android:justificationMode="inter_word"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/balance"
+            android:text="Billing Date: "
+            />
+    <RelativeLayout
+        android:layout_below="@+id/billingdate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnmtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_selector"
+            android:text="Pay With MTN"
+            android:layout_margin="10dp"
+            android:textColor="@color/white" />
+        <Button
+            android:id="@+id/btnairtel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/btnmtn"
+            android:background="@drawable/button_selector"
+            android:text="Pay With Airtel"
+            android:layout_margin="10dp"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

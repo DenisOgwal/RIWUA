@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/waterbills"
+    android:padding="10dp">
+
+    <RelativeLayout android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/paymentid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Payment ID: "
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/billnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bill Number: "
+            android:layout_below="@+id/paymentid"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/amountpaid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/billnumber"
+            android:textSize="15sp"
+            android:text="Amount Paid: "/>
+        <TextView
+            android:id="@+id/paidby"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/amountpaid"
+            android:textStyle="normal"
+            android:text="Paid By:"/>
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/paidby"
+            android:textStyle="normal"
+            android:text="Contact: "/>
+        <TextView
+            android:id="@+id/paymentdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/contact"
+            android:textStyle="normal"
+            android:text="Payment Date: "/>
+    </RelativeLayout>
+</LinearLayout>

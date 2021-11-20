@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/noti"
+    android:padding="10dp">
+
+    <RelativeLayout android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:scaleType="fitXY" />
+        <TextView
+            android:id="@+id/providername"
+            android:layout_width="match_parent"
+            android:layout_toRightOf="@id/thumbnail"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/providertelby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/thumbnail"
+            android:layout_below="@+id/providername"
+            android:text="TEL: "/>
+        <TextView
+            android:id="@+id/providercontact"
+            android:layout_below="@+id/providername"
+            android:layout_toRightOf="@id/providertelby"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="None"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/provideremailby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/thumbnail"
+            android:layout_below="@+id/providercontact"
+            android:text="Email: "/>
+        <TextView
+            android:id="@+id/provideremail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/provideremailby"
+            android:layout_below="@+id/providercontact"
+            android:textStyle="normal"
+            android:text="None"/>
+
+
+        <TextView
+            android:id="@+id/providerid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/provideremail"
+            android:layout_toRightOf="@id/thumbnail"
+            android:text="Date: "
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+</LinearLayout>

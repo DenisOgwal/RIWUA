@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SMS.MessageFragment">
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/view_background"
+        android:baselineAligned="false"
+        android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:text="To:"
+        android:textColor="@color/input_login"
+        android:visibility="visible"
+        tools:text="To:" />
+
+    <EditText
+        android:id="@+id/messagecontact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/TextView1"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Input Contact"
+        android:padding="10dp" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/main_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/messagecontact"
+        android:layout_margin="10dp"
+        android:layout_above="@id/messagedraft">
+    </android.support.v7.widget.RecyclerView>
+
+    <EditText
+        android:id="@+id/messagedraft"
+        android:layout_above="@+id/btnsubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:ems="10"
+        android:hint="Message"
+        android:inputType="textMultiLine"
+        android:visibility="visible" />
+
+
+
+
+        <Button
+            android:id="@+id/btnsubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_selector"
+            android:text="@string/submit"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/white" />
+
+
+    </RelativeLayout>

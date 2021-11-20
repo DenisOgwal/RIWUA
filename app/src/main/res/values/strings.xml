@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">RIWUA APP</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">IRRIGATION</string>
+    <string name="slide_1_desc">Irrigation is the artificial application of water to the soil through various systems of tubes, pumps, and sprays.</string>
+
+    <string name="slide_2_title">STATISTICS</string>
+    <string name="slide_2_desc">The practice or science of collecting and analysing numerical data in large quantities, especially for the purpose of inferring proportions in a whole from those in a representative sample.</string>
+
+    <string name="slide_3_title">CROP PROTECTION</string>
+    <string name="slide_3_desc">Crop Protection covers all practical aspects of pest, disease and weed control. Biocontrol Agents will help promote crop protection program and lets find you the best suppliers for farm inputs</string>
+
+    <string name="slide_4_title">RIWUA APP</string>
+    <string name="slide_4_desc">This App is Intended to help you Access Your Water Bills information and pay off accordingly, but also this app will help you access some other information like Notifications, Scheme Schedules, Report any Issues, Etc. </string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_emails">Email OR Meter No.</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+
+    <string name="contact">Telephone No.</string>
+    <string name="location">Address/Location.</string>
+    <string name="meterno">Registered Meter No.</string>
+
+    <string name="report"> Inform Us</string>
+    <string name="reportimage"> Submit Image</string>
+    <string name="reportvideo"> Submit Video</string>
+    <string name="sms">Message</string>
+    <string name="notification">Notifications</string>
+    <string name="service">Service Providers</string>
+    <string name="title_activity_report">Report</string>
+
+    <string name="btnTakePicture">Capture Image</string>
+    <string name="btnRecordVideo">Record Video</string>
+    <string name="or">(or)</string>
+    <string name="submit">Submit</string>
+    <string name="uploadimage">Image</string>
+    <string name="uploadvideo">Video</string>
+    <string name="btnUploadToServer">Upload to Server</string>
+    <string name="title_activity_sms">Sms</string>
+    <string name="title_home">Message</string>
+    <string name="title_dashboard">Sent</string>
+    <string name="title_notifications">In Box</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_provider_detail">Provider Details</string>
+    <string name="title_activity_advise">Advise</string>
+    <string name="title_activity_advise_detail">Advise Detail</string>
+    <string name="title_activity_biocontrol_agents">Biocontrol Agents</string>
+    <string name="title_activity_biocontrol_agents_detail">Biocontrol Agents Detail</string>
+    <string name="title_activity_crop_diseases">Crop Diseases</string>
+    <string name="title_activity_crop_disease_detail">Crop Disease Detail</string>
+    <string name="title_activity_statistics">Statistics</string>
+    <string name="title_activity_chats">Chat Contacts</string>
+    <string name="title_activity_statistics_detail">Statistics Detail</string>
+    <string name="title_activity_chat_room">Chat Room</string>
+    <string name="action_search">Search</string>
+    <string name="search_hint">Type Search word...</string>
+    <string name="notifications">Notifications</string>
+    <string name="paywaterbills">Pay Bills</string>
+    <string name="schedules">Schedules</string>
+    <string name="title_activity_schedule">Schedule</string>
+    <string name="previous">Previous</string>
+    <string name="title_activity_schedule_detail">Schedule Detail</string>
+    <string name="title_activity_water_bills">Water Bills</string>
+    <string name="title_activity_water_bill_detail">Water Bill Detail</string>
+
+    <string name="first_fragment_label">RIWUA</string>
+    <string name="second_fragment_label">RIWUA</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_water_bill_details">Water Bill Details</string>
+    <string name="title_activity_water_bill_payments">Water Bill Payments</string>
+</resources>

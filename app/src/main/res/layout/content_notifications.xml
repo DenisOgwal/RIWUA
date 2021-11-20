@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/noti"
+    android:padding="10dp">
+
+    <RelativeLayout android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/notificationsubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/notificationmessage"
+            android:layout_below="@+id/notificationsubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/sentbytext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/notificationmessage"
+            android:text="By: "/>
+        <TextView
+            android:id="@+id/sentby"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/sentbytext"
+            android:layout_below="@+id/notificationmessage"
+            android:textStyle="normal"
+            android:text="Rating"/>
+
+
+        <TextView
+            android:id="@+id/datesent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sentby"
+            android:text="Date: "/>
+        <TextView
+            android:id="@+id/datesenttext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/datesent"
+            android:layout_below="@+id/sentby"
+            android:text="Year"/>
+    </RelativeLayout>
+
+</LinearLayout>

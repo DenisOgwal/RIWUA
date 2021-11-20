@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/payments"
+            android:icon="@drawable/ic_baseline_attach_money_24"
+            android:title="Bill Payments" />
+        <item
+            android:id="@+id/advise"
+            android:icon="@drawable/ic_stat_advice"
+            android:title="Advise" />
+        <item
+            android:id="@+id/biocontrol"
+            android:icon="@drawable/ic_stat_biocontrol"
+            android:title="Biocontrol Agents" />
+        <item
+            android:id="@+id/diseases"
+            android:icon="@drawable/ic_stat_diseases"
+            android:title="Crop Diseases" />
+        <item
+            android:id="@+id/stats"
+            android:icon="@drawable/ic_stat_start"
+            android:title="Statistics" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_stat_log"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/waterbills"
+    android:padding="10dp">
+
+    <RelativeLayout android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/billnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bill Number"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/waterunits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/billnumber"
+            android:textSize="15sp"
+            android:text="Water Units: "/>
+        <TextView
+            android:id="@+id/billingdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/waterunits"
+            android:textStyle="normal"
+            android:text="Billing Date"/>
+    </RelativeLayout>
+</LinearLayout>

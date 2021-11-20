@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "519810730575",
+    "firebase_url": "https://crop-protection-241123.firebaseio.com",
+    "project_id": "crop-protection-241123",
+    "storage_bucket": "crop-protection-241123.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519810730575:android:a6a1ad07d605dc95",
+        "android_client_info": {
+          "package_name": "com.example.cropprotection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "519810730575-63fg312av6tvnat2jdpc4lnurmvhqorn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgOD1O7bQawSEfNPUpg1g_iqkikb04wRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "519810730575-63fg312av6tvnat2jdpc4lnurmvhqorn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

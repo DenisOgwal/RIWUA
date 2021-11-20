@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Statistics.StatisticsDetail"
+    tools:showIn="@layout/activity_statistics_detail">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/advisesubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Statistic"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/adviseby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_below="@+id/advisesubject"
+            android:text="By:  "/>
+        <TextView
+            android:id="@+id/advisebytext"
+            android:layout_below="@+id/advisesubject"
+            android:padding="5dp"
+            android:layout_toRightOf="@id/adviseby"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="None"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/advisedatetext"
+            android:layout_width="wrap_content"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/adviseby"
+            android:text="Date:  "/>
+        <TextView
+            android:id="@+id/advisedate"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/advisedatetext"
+            android:layout_below="@+id/adviseby"
+            android:textStyle="normal"
+            android:text="None"/>
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/advisedatetext"
+            android:text="Details "
+            />
+        <TextView
+            android:id="@+id/descriptiontext"
+            android:layout_width="wrap_content"
+            android:padding="5dp"
+            android:justificationMode="inter_word"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/description"
+            android:text="Details "
+            />
+        <Button
+            android:id="@+id/btndownload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/descriptiontext"
+            android:background="@drawable/button_selector"
+            android:text="Download Attachment"
+            android:paddingTop="20dp"
+            android:layout_margin="10dp"
+
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
