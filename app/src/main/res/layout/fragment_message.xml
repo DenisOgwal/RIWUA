@@ -4,7 +4,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".SMS.MessageFragment">
+        tools:context="com.Dither.cropprotection.SMS.MessageFragment">
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:background="@color/view_background"
@@ -36,14 +36,14 @@
         android:layout_marginBottom="10dp"
         android:hint="Input Contact"
         android:padding="10dp" />
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/main_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/messagecontact"
         android:layout_margin="10dp"
         android:layout_above="@id/messagedraft">
-    </android.support.v7.widget.RecyclerView>
+    </androidx.recyclerview.widget.RecyclerView>
 
     <EditText
         android:id="@+id/messagedraft"

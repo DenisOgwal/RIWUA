@@ -6,7 +6,6 @@ import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 
 import com.Dither.cropprotection.activity.RegisterActivity;
 

@@ -10,7 +10,8 @@
       "client_info": {
         "mobilesdk_app_id": "1:519810730575:android:a6a1ad07d605dc95",
         "android_client_info": {
-          "package_name": "com.example.cropprotection"
+          "package_name": "com.Dither.cropprotection",
+          
         }
       },
       "oauth_client": [

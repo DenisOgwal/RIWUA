@@ -6,7 +6,7 @@
     android:layout_height="fill_parent"
     android:id="@+id/splashlayout"
     android:background="@drawable/gradient_list"
-    tools:context="com.example.cropprotection.SplashScreen">
+    tools:context="com.Dither.cropprotection.SplashScreen">
 
     <ImageView android:id="@+id/splashscreen"
         android:layout_width="fill_parent"
